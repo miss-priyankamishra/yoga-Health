@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import Home from './Component/Home';
+import Home from './Component/Homgit e';
 import About from './Component/About';
 import {
   BrowserRouter,
@@ -21,7 +21,7 @@ function App() {
 <Navbar/>
 <Routes>
 
-  <Route path="/" exact element={<Home />} />
+  <Route path="/Yoga-heath" exact element={<Home />} />
 
   <Route path="/About" exact element={
     <About/>
