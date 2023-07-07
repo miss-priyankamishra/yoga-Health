@@ -1,0 +1,330 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+ul li a :hover {
+    background-color: #2fc8c3;
+}
+/* .nav-items .nav-links :hover{ background-color: aquamarine;} */
+.nav-link {color: gray !important;
+    font-size: 20px;
+    
+}
+.nav-link:hover{
+    color: #2fc8c3 !important;
+}
+.contactus{
+    border: 2px solid #2fc8c3;
+     border-radius: 5px;
+}
+.contactus link:hover{background-color: #2fc8c3;
+color: white;}
+.brand{ color: gray;}
+.brand:hover{color: #2fc8c3;}
+.home-header{width: 100%;
+ height: 600px;}
+ .home-header img{width: 100%;
+    height: 600px;}
+    .animationheader{  line-height: 1.5;
+        display: inline;
+        font-size: 40px;
+         color: white;
+        background-image: linear-gradient(
+              transparent 50%,
+              #2fc8c3 50%,
+            
+              transparent 85%,
+              transparent 100%
+          );
+          background-repeat: no-repeat;
+          background-size: 0% 100%;
+          animation: animatedBackground 2s cubic-bezier(0.645, 0.045, 0.355, 1) 0.5s forwards;}
+          @keyframes animatedBackground {
+            to {
+                background-size: 100% 100%;
+            }}
+
+            .anoutimages iframe {float: right;}
+            .headetext{width: 400px;
+             height:auto}
+             /* .anoutimages{
+                width: 600px;
+             }  */
+             .anoutimages img {border: #14c3c6 10px solid;
+                 float: right;
+stroke-dasharray: 10cap;
+width:80%;
+height:80%;
+box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
+.headetext p {
+    margin-top: 30%;
+    margin-left: 40%;
+     font-size: 20px;
+     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.headetext h4{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width:100%;
+}
+
+.OurClasses img{
+    width: 100%;
+    height: 270px;
+    position: relative;
+  
+}
+.OurClasses img:hover{
+    opacity:0.2;
+
+    width: 100%;
+    height: 270px;
+     background-color: #14c3c6;
+
+     
+     
+}
+
+.imageshover img:hover{
+    background-color: #2fc8c3;
+}
+.card-body h5:hover
+{
+    color: #14c3c6;
+}
+.card-footer {
+    justify-content: space-around;
+}
+.card-body a{
+    color: #2fc8c3;
+    text-decoration: none;
+    
+}
+ .row .blogone img{width: 100%;
+    height: auto;
+
+}
+/* .card img:hover{
+    background-color: #2fc8c3;
+    width: 100%;
+    height: 100%;
+
+
+} */
+.Our-Client-Say{
+    background-color: #14c3c6;
+}
+.carsol-Our-Client-Say{
+    background-color: #14c3c6;
+}
+/* 
+    @import url('https://fonts.googleapis.com/css?family=Gochi+Hand');
+
+body {
+  background-color: #ffb7b0;
+  min-height: 70vh;
+  padding: 40vh 30vw;
+  color: hsl(198, 1%, 29%);
+  font-family: 'Gochi Hand', cursive;
+  text-align: left;
+  font-size: 130%;  
+}
+
+h2 {
+  line-height: 1.5;
+  display: inline;
+  background-image: linear-gradient(
+        transparent 50%,
+        #e1fffe 50%,
+        #b0f8ff 85%,
+        transparent 85%,
+        transparent 100%
+    );
+    background-repeat: no-repeat;
+    background-size: 0% 100%;
+    animation: animatedBackground 2s cubic-bezier(0.645, 0.045, 0.355, 1) 0.5s forwards;
+}
+
+@keyframes animatedBackground {
+    to {
+        background-size: 100% 100%;
+    }
+} */
+.overly{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #14c3c6;
+  }
+  .footer-logo img{width: 150px;
+    height: 90px;
+overflow: hidden;
+  }
+  .header{
+    width: 100%;
+    height: 400px;
+position: relative;
+  }
+  .header img {
+    width: 100%;
+    height:400px ;
+    
+  }
+  .About-heading{
+    position: absolute;
+    color: rgb(12, 12, 12);
+    font-size: 20px;
+  }
+
+  @import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900");
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Poppins", sans-serif;
+}
+
+body {
+	display: flex;
+	/* background: #000; */
+	min-height: 100vh;
+	align-items: center;
+	justify-content: center;
+}
+
+.content {
+	position: relative;
+}
+
+.content h4 {
+	color: #fff;
+	font-size: 8em;
+	position: absolute;
+	transform: translate(-50%, -50%);
+     margin-top: 20%;
+     margin-left: 50%;
+}
+
+.content h4:nth-child(1) {
+	color: transparent;
+	-webkit-text-stroke: 2px #fff;
+}
+
+.content h4:nth-child(2) {
+	color: #14c3c6;
+	animation: animate 4s ease-in-out infinite;
+}
+
+@keyframes animate {
+	0%,
+	100% {
+		clip-path: polygon(
+			0% 5%,
+			80% 44%,
+			10% 50%,
+			30% 60%,
+			40% 61%,
+			84% 40%,
+			50% 52%,
+			60% 30%,
+			0% 100%
+		);
+	}
+
+	100% {
+		clip-path: polygon(
+			0% 60%,
+			15% 65%,
+			40% 66%,
+			51% 62%,
+			67% 50%,
+			84% 45%,
+			100% 46%,
+			100% 100%,
+			0% 100%
+		);
+	}
+}
+.container  .Ourclassestext{text-decoration:overline;
+    color: #000000;
+
+
+
+}
+.Ourclassestext{text-decoration:overline;
+    color: #000000;
+
+
+}
+.container  .Ourclassestext:hover{text-decoration:underline;
+    color: #14c3c6;
+
+
+}
+.Ourclassestext:hover{text-decoration:underline;
+    color: #14c3c6;}
+.text-start button .readmoreoption{
+    border: #14c3c6 solid 2px;
+     border-radius: 5px;
+}
+.text-start .readmoreoption{
+    border: #14c3c6 solid 4px;
+    border-radius: 10px;
+padding: 2px;
+ background-color: white;
+ color: #14c3c6;
+}
+.text-start .readmoreoption:hover{
+    background-color: #14c3c6;
+    color: white;
+}
+.viwemoreclass{
+    border: #14c3c6 solid 4px;
+    border-radius: 10px;
+padding: 2px;
+ background-color: white;
+ color: #14c3c6;
+}
+.viwemoreclass:hover{
+    background-color: #14c3c6;
+    color: white;
+}
+.sumitebtn:hover{
+    border: #14c3c6 solid 4px;
+    border-radius: 10px;
+padding: 2px;
+color: white;
+ background-color: #14c3c6;
+
+ 
+}
+.sumitebtn{
+    border: #14c3c6 solid 4px;
+    border-radius: 10px;
+padding: 2px;
+color: #14c3c6;
+ background-color: white;
+
+}
+.iconcolor{
+ color: #14c3c6;
+}
+.footertext a {
+text-decoration: none;
+color: black;
+}
+.OurClasses .overimg1{
+    width: 100%;
+    height: 270px;
+    background-color: #2fc8c3;
+    position: absolute;
+}
+ .OurClasses .overimg1 img:hover{ background-color: #2fc8c3; }
