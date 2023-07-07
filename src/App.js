@@ -17,7 +17,7 @@ import Footer from './Component/Footer';
 function App() {
   return (
     <div className="App">
-        <BrowserRouter basename='/Yoga'>
+        <BrowserRouter basename='/Yoga-heath'>
 <Navbar/>
 <Routes>
 
